@@ -1,5 +1,3 @@
-
-
 class Solution:
     def checkStraightLine(self, coordinates: list[list[int]]) -> bool:
 
@@ -18,7 +16,3 @@ class Solution:
                 if (a * coordinate[0] + b) != coordinate[1]:
                     return False
             return True
-
-coordinates = [[0,0],[0,1],[0,-1]]
-solution = Solution()
-print(solution.checkStraightLine(coordinates))
